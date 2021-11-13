@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Contacts</h1>
+        <h1>My Favorites</h1>
         <nav class="nav_Menu">
             <ul class="nav_list">
               <li class="nav_item"><a href="./page1.html">Contacts</a></li>
@@ -21,10 +21,26 @@
             </ul>
         </nav>
     </header>
-
-    <p> Third page displaying 
-        existing contact with 
-        Edit and Close buttons. </p>
+<div class="container">
+    <form>
+    
+        <label for="fname">Contact Name</label>
+        <input type="text" id="Name" name="firstname" placeholder="Nathan">
+    
+        <label for="lname">Contact Phone</label>
+        <input type="text" id="Phone" name="lastname" placeholder="928 837 2534">
+    
+        <label for="country">Contact Address</label>
+        <input type="text" id="Address" name="lastname" placeholder="1234 LotofStuffThisWeek st">
+    
+        <label for="subject">Contact Email</label>
+        <input type="text" id="Email" name="lastname" placeholder="thiswashard@gmail.com">
+    
+        <input type="submit" value="Edit">
+        <input type="submit" value="Close">
+    
+    </form>
+    </div>
     
 </body>
 </html>
