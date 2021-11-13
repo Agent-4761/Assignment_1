@@ -1,5 +1,3 @@
-/* font-family: 'Zen Kurenaido', sans-serif;*/
-
 /*
 #1f1d2e
 #e0def4
@@ -8,30 +6,41 @@
 #31748f
 #26233a
 */
+/* font-family: 'Zen Kurenaido', sans-serif;*/
+
 
 
 body
 {
 
     background-color:#1f1d2e ;
+    box-sizing: border-box;
+    justify-content: right;
+    
 
 }
 
 h1 
 {
     color: #e0def4;
+    font-family: 'Zen Kurenaido', sans-serif;
 
 }
 
 p
 {
     color: #eb6f92;
+    font-family: 'Zen Kurenaido', sans-serif;
     font-size: 175%;
+    width: 70%;
+    float: right;
+    
 }
 
 h2
 {
     color: #f6c177;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 
@@ -42,6 +51,7 @@ h2
     padding: 2rem ;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav_Menu {
@@ -49,23 +59,39 @@ h2
     position: -webkit-sticky;
     position: sticky;
     top: 2px
+    width 25%;
+    float: left;
+    
+
 }
 
 .nav_item {
-    background-color: #26233a;
+    background-color: #31748f;
     list-style: none;
     margin-right: 0.5rem;
     padding: 1rem;
+    
 
 }
 
 .nav_item a {
     color: #eb6f92;
-    font-family: 'New Tegomin', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     
 
 }
 
 .nav_item a:hover {
-    color: #eb6f92;
+    color: #26233a;
+}
+
+@media screen and (min-width: 500px) {
+.nav_list {
+    
+    background-color: #31748f;
+    margin: 0;
+    padding: 2rem ;
+    display: inline-block;
+    justify-content: space-between;
+}
 }
