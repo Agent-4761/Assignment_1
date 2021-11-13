@@ -46,6 +46,15 @@ h2
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+img {
+    display: grid;
+    margin: auto;
+    border-radius: 30%;
+    padding: 5px;
+    width: 100px;
+}
+
+
 .container {
     display: grid;
     width: 35vw;
