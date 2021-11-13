@@ -1,0 +1,71 @@
+/* font-family: 'Zen Kurenaido', sans-serif;*/
+
+/*
+#1f1d2e
+#e0def4
+#eb6f92
+#f6c177
+#31748f
+#26233a
+*/
+
+
+body
+{
+
+    background-color:#1f1d2e ;
+
+}
+
+h1 
+{
+    color: #e0def4;
+
+}
+
+p
+{
+    color: #eb6f92;
+    font-size: 175%;
+}
+
+h2
+{
+    color: #f6c177;
+}
+
+
+.nav_list {
+    
+    background-color: #31748f;
+    margin: 0;
+    padding: 2rem ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_Menu {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2px
+}
+
+.nav_item {
+    background-color: #26233a;
+    list-style: none;
+    margin-right: 0.5rem;
+    padding: 1rem;
+
+}
+
+.nav_item a {
+    color: #eb6f92;
+    font-family: 'New Tegomin', serif;
+    
+
+}
+
+.nav_item a:hover {
+    color: #eb6f92;
+}
